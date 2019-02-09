@@ -156,7 +156,7 @@ module.exports = exports = function(root, callback) {
 
                     var newPort = process.env.PORT || 8888
                     //var socketURL = (config.isUseHTTPs ? 'https' : 'http') + '://' + e.address + ':' + e.port + '/';
-                    var socketURL = (config.isUseHTTPs ? 'https' : 'http') + '://' + "madxaudioapi.herokuapp.com" + ':' + e.newPort + '/';
+                    var socketURL = (config.isUseHTTPs ? 'https' : 'http') + '://' + "api-madxaudioapp.herokuapp.com" + ':' + e.newPort + '/';
 
                     console.log('------------------------------');
                     console.log('\x1b[31m%s\x1b[0m ', 'Unable to listen on port: ' + e.newPort);
@@ -196,7 +196,7 @@ module.exports = exports = function(root, callback) {
                     }
 
                     
-                    var domainURL = (config.isUseHTTPs ? 'https' : 'http') + '://' + "madxaudioapi.herokuapp.com/" + ':' + newPort + '/';
+                    var domainURL = (config.isUseHTTPs ? 'https' : 'http') + '://' + "api-madxaudioapp.herokuapp.com/" + ':' + newPort + '/';
 
                     console.log('\n');
 
